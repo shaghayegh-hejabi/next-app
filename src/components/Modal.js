@@ -14,6 +14,8 @@ export default function Modal({ title, onClose, onSubmit, product, setProduct })
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    backdropFilter: "blur(5px)", 
+            WebkitBackdropFilter: "blur(5px)",
   }}
 >
   <div
